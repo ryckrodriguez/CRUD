@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro de usuário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js\main.js"></script>
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+          
+              <div class="fadeIn first">
+                <img src="imagens/global_dotcom.png" style="width: 50%; margin: 20px;" id="icon" alt="GDC"/>
+              </div>
+          
+              <form id="cad_usuario">
+                <input type="text" id="usuario" class="fadeIn second" name="usuario" placeholder="Usuario" required>
+                <input type="tel" id="telefone" class="fadeIn second" name="telefone" placeholder="Telefone" required>
+                <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" required>
+                <input type="password" id="senha" class="fadeIn third" name="senha" placeholder="Senha" required>
+                <input type="submit" class="fadeIn fourth" value="Cadastrar">
+              </form>
+          
+              <div id="formFooter">
+                <a class="underlineHover" href="login.html">Já está cadastrado?</a>
+              </div>
+
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    </body>
+</html>
